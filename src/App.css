@@ -1,16 +1,22 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.movie-card {
-  height: 60vh;
-  width: 30%;
-  box-shadow: 0 0 4px 0 #111;
-  margin: 5px;
-  padding: 15px;
+* {
+    margin: 0;
+    padding: 0;
 
 }
+
+body {
+    background-color:#0E0F11;
+    color: yellow;
+}
+
+.h1{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align:center;
+    color: red;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+}
+
